@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AjoutBorne.h</itemPath>
+      <itemPath>AjoutBorneStationnement.h</itemPath>
+      <itemPath>GestionBorne.h</itemPath>
+      <itemPath>Supprimer_Bornes.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>AjoutBorne.ui</itemPath>
+      <itemPath>AjoutBorneStationnement.ui</itemPath>
+      <itemPath>GestionBorne.ui</itemPath>
+      <itemPath>Supprimer_Bornes.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AjoutBorne.cpp</itemPath>
+      <itemPath>AjoutBorneStationnement.cpp</itemPath>
+      <itemPath>GestionBorne.cpp</itemPath>
+      <itemPath>Supprimer_Bornes.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../SourceF</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../SourceF"
+                            CT="3"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../SourceF"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libsourcef.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="AjoutBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AjoutBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestionBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GestionBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestionBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AjoutBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AjoutBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AjoutBorneStationnement.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestionBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GestionBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestionBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Supprimer_Bornes.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
